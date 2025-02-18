@@ -1,0 +1,148 @@
+*{ 
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root { 
+  /* --mainColor: #063d38; 
+  --secondColor:#025b52 ; 
+  --thirdColor:#007256 ; 
+  --fourColor:#015843;  */
+  --white: #ffffff; 
+  --black: #520a2d ;
+  --lessBack:#3d433dc7;  
+  --spanColor:#ccffb3 ; 
+  --ActiveOne:#82bc65;
+  --ActiveTwo : #979797ee;
+  --btn2Color:#cbc8c8ee; 
+  --redd :#ff0000;
+}
+
+::selection {
+  background-color:var(--lessBack) ;
+  color: var(--spanColor);
+}
+
+
+
+/* Bacground  */ 
+
+.content {
+  width: 100wh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+
+/*      TextInHead      */
+
+.TextInHead{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85vh;
+  gap: 0px;
+  padding-bottom: 30px;
+}
+
+.TextInHead h2,h3 { 
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 10px white;
+} 
+
+.TextInHead h3  {
+  font-size: 22px;
+  margin-top: -12px;
+  text-shadow: 0px 0px 10px white;
+
+}
+
+.TextInHead h3 span {
+  color: #ccffb3;
+  text-shadow: 4px 4px 5px rgb(204, 255, 179);
+}
+
+.TextInHead button { 
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(22, 18, 18);
+  background-color:rgb(204, 255, 179);
+  border: none  ;
+  border-radius: 9px ;
+  cursor: pointer;
+  transition: 1s; 
+
+}
+.TextInHead button:hover { 
+  background-color:rgb(136, 197, 105);
+  scale: 1.07;
+}
+
+
+
+.TextInHead {
+  width: 100wh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+.JustAdmin{
+  background-color:rgba(43, 41, 36, 0.438);;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.JustAdmin button { 
+  width: 120px;
+}
+
+
+.allInput {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; 
+  padding: 16px;
+  place-content: center ;
+}
+input,textarea{ 
+  padding: 16px;
+  border: none ;
+  border-radius: 6px;
+}
+
+
+textarea{ 
+ padding: 10px; 
+}
+
+.JustAdmin h1  {
+  margin: 10px;
+  margin-top: 33px;
+  color: white;
+
+}
+.JustAdmin h5 { 
+  margin: 0px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.JustAdmin button{ 
+  transition: 0.4s;
+}
+
+.JustAdmin button:hover  {
+  background-color:rgba(43, 41, 36, 0.438);;
+  color: white;
+}
+

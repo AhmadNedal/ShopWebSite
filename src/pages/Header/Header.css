@@ -1,0 +1,76 @@
+.allHeader ,.allHeader2{ 
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  background-color: var(--white);
+}
+.taginHeader a { 
+  color: var(--black);
+}
+.three {
+  display: flex;
+}
+
+.logo{ 
+  font-size: 25px;
+  color: var(--black);
+}
+
+.three i{
+  padding: 7px; 
+  margin: 4px;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: .5s;
+  z-index: 1;
+  color: var(--black);
+
+}
+
+.three i:hover{ 
+  background-color: var(--ActiveOne);
+}
+
+.three .cartIcon:hover i{ 
+  background-color: var(--ActiveOne);
+}
+
+.three .cartIcon:hover span{ 
+  background-color: var(--ActiveOne);
+  cursor: pointer;
+  z-index: -1;
+}
+.cartIcon { 
+  position: relative;
+}
+.cartIcon span { 
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  left: 24px;
+  z-index: 0;
+  right: 0px;
+  background-color: var(--spanColor);
+  border-radius: 50%;
+}
+
+
+/* taginHeader  */  
+
+.taginHeader a {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 19px;
+  
+}
+
+.taginHeader a:hover { 
+  color: var(--btn2Color) ; 
+  text-decoration: underline;
+}
+

@@ -1,0 +1,106 @@
+.allContentShop{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:var(--spanColor);
+  padding-Top: 20px;
+  padding-bottom: 120px;
+}
+
+
+.Filters { 
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 800px;
+  /* background-color:var(--white); */
+  gap: 4px;
+  direction: rtl;
+}
+
+
+.contentCard{ 
+  background-color:var(--lessBack);
+  overflow: auto;
+  min-height: 500px;
+}
+
+.Filters .btn{
+
+  background-color:var(--spanColor);
+  transition: 0.4s;
+}
+
+.allHeader{ 
+  background-color: var(--white) !important;
+}
+
+
+.Filters .btn:hover{ 
+  background-color:var(--ActiveOne);
+  color: var(--white);
+}
+
+
+.allCard{ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; 
+  padding: 16px;
+}
+
+.Cardd{
+
+  width: 270px;
+  height: 233px;
+}
+
+
+.headOfCard{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.headOfCard button { 
+  padding: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0px;
+  margin-top: -30px;
+  margin-bottom: 24px;
+  background-color: var(--btn2Color);
+}
+
+
+
+.contentCard{ 
+  width:900px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.Filters .active {
+  background-color:var(--ActiveOne);
+  color: var(--white);
+}
+
+.btn2{ 
+  transition: .8s;  
+}
+
+.active2 { 
+  background-color:var(--ActiveTwo) !important;
+  color: var(--white) !important ;
+
+
+}
+
+.MuiTypography-root {
+  font-family: "Alexandria", serif !important;
+}

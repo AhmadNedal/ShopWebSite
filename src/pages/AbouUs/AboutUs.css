@@ -1,0 +1,44 @@
+.AboutUsAll , .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.AboutUsAll{
+   background-color: var(--ActiveOne) ;
+  }
+
+
+.AboutUsAll h1 { 
+  font-size: 40px;
+  margin-top: 50px;
+
+}
+.container{
+  flex-direction: row ;
+  margin: 40px;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.container img { 
+  width: 600px;
+  border: 2px solid var(--spanColor);
+  border-radius: 12px;
+}
+
+
+.textcontainer .textAboutMe{
+  font-weight: 220;
+  word-spacing: 6px;
+  text-align: center;
+  font-size: 21px;
+  margin: 0;
+  color: var(--black);
+
+}
+.AboutMe{
+  color: var(--black);
+}
+
